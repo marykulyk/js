@@ -29,15 +29,16 @@ let firstName = 'Mariia',
     lastName = 'Kulyk',
     person = lastName + ' ' + firstName + ' ' + middleName;
 console.log(person);
-let a = 100;
+const a = 100;
 console.log(typeof a);
-let b = '100';
+const b = '100';
 console.log(typeof b);
-let c = true;
+const c = true;
 console.log(typeof c);
-let 
-prompt("Введіть Ваше ім'я", firstName);
-console.log(firstName);
-prompt("Введіть Ваше по-батькові", middleName);
-console.log(middleName);
+let age = '25'
+let firstNamePrompt = prompt("enter your name", firstName);
+let middleNamePrompt = prompt("enter your midle name", middleName);
+let agePrompt = prompt('enter your age', age);
+person = firstNamePrompt + ' ' + middleNamePrompt + ' ' + agePrompt + ' yo';
+console.log(person)
 
