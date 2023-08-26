@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="init lesson3 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson3-hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3-hw/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="add some code to main.js" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +64,7 @@
       <workItem from="1692632536713" duration="9045000" />
       <workItem from="1692860017859" duration="2859000" />
       <workItem from="1692879731583" duration="3436000" />
-      <workItem from="1692892547072" duration="927000" />
+      <workItem from="1692892547072" duration="1758000" />
     </task>
     <task id="LOCAL-00001" summary="innit commit">
       <option name="closed" value="true" />
@@ -165,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692860169905</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add some code to main.js">
+      <option name="closed" value="true" />
+      <created>1692893725338</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692893725338</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +192,7 @@
     <MESSAGE value="lesson 2 init commit" />
     <MESSAGE value="add some content to main.js" />
     <MESSAGE value="init lesson3 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="init lesson3 commit" />
+    <MESSAGE value="add some code to main.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some code to main.js" />
   </component>
 </project>
