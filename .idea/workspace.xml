@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="innit commit to lesson5-hw and add some content to main.js">
-      <change afterPath="$PROJECT_DIR$/lesson6-hw/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson6-hw/main.js" afterDir="false" />
+    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="innit commit to lesson6-hw">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson6-hw/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6-hw/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1693054015534" duration="50000" />
       <workItem from="1693133532441" duration="7082000" />
       <workItem from="1693408730995" duration="3060000" />
-      <workItem from="1693659186671" duration="11604000" />
+      <workItem from="1693659186671" duration="11908000" />
+      <workItem from="1693730644618" duration="2697000" />
     </task>
     <task id="LOCAL-00001" summary="innit commit">
       <option name="closed" value="true" />
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693411668779</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="innit commit to lesson6-hw">
+      <option name="closed" value="true" />
+      <created>1693671280909</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693671280910</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +236,7 @@
     <MESSAGE value="add lesson4-hw to js" />
     <MESSAGE value="add some content to main.js" />
     <MESSAGE value="innit commit to lesson5-hw and add some content to main.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="innit commit to lesson5-hw and add some content to main.js" />
+    <MESSAGE value="innit commit to lesson6-hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="innit commit to lesson6-hw" />
   </component>
 </project>
