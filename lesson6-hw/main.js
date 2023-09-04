@@ -26,26 +26,44 @@ console.log(str.replace(' ', ''));
 //     let str = 'Ревуть воли як ясла повні';
 //     let arr = stringToarray(str); ['Ревуть', 'воли', 'як', 'ясла', 'повні']
 let text = 'Ревуть воли як ясла повні';
-let arr = [];
-arr.push('Ревуть');
-arr.push('воли');
-arr.push('як');
-arr.push('ясла');
-arr.push('повні');
-console.log(arr);
+// let arr = [];
+// arr.push('Ревуть');
+// arr.push('воли');
+// arr.push('як');
+// arr.push('ясла');
+// arr.push('повні');
+// console.log(arr);
+console.log(text.split(' '));
 // - є масив чисел [10,8,-7,55,987,-1011,0,1050,0] . за допомоги map  перетворити всі об'єкти в масиві на стрінгові.
 let numbers = [10,8,-7,55,987,-1011,0,1050,0];
 let map = numbers.map(number => number.toString());
 console.log(map);
 // - створити функцію sortNums(direction), яка прймає масив чисел, та сортує його від більшого до меньшого, або навпаки в залежності від значення аргументу direction.
 // let nums = [11,21,3];
-// sortNums(nums,'ascending') // [3,11,21]
-// sortNums(nums,'descending') // [21,11,3]
 let nums = [11,21,3];
-let sortAscending = nums.sort((u1,u2) => u1-u2);
-console.log(sortAscending);
-let sortDescending = nums.sort((u2,u1) => u1-u2);
-console.log(sortDescending);
+let sortNums = function (nums, direction) {
+    let sort = nums.sort((u1,u2) => {
+        if (u1 === u2) {
+            return 0;
+        }
+        if (direction == 'asc') {
+            if (u1 < u2) {
+                return -1;
+            } else if (u1 > u2) {
+                return  1;
+            }
+        } else {
+            if (u1 > u2) {
+                return -1;
+            } else if (u1 < u2) {
+                return 1;
+            }
+        }
+    });
+    return sort;
+};
+console.log(sortNums(nums,'ascending')); // [3,11,21]
+console.log(sortNums(nums,'descending'))// [21,11,3]
 // ==========================
 // - є масив
 let coursesAndDurationArray = [
@@ -128,54 +146,54 @@ let cardDeck = {
         {cardSuit: 'clubs', value: 'ace', color: 'black'},
     ],
 //  - знайти піковий туз
-    findAceOfSpades: () => {
-        for (const card of cardDeck.cards) {
-            if (card.cardSuit == 'spade' && card.value == 'ace') {
-                return card;
-            }
-        }
-        return {};
-    },
+//     findAceOfSpades: () => {
+//         for (const card of cardDeck.cards) {
+//             if (card.cardSuit == 'spade' && card.value == 'ace') {
+//                 return card;
+//             }
+//         }
+//         return {};
+//     },
 //  - всі шістки
-    findAllSixes: () => {
-        let result = [];
-        for (const card of cardDeck.cards) {
-            if (card.value == '6') {
-                result.push(card);
-            }
-        }
-        return result;
-    },
+//     findAllSixes: () => {
+//         let result = [];
+//         for (const card of cardDeck.cards) {
+//             if (card.value == '6') {
+//                 result.push(card);
+//             }
+//         }
+//         return result;
+//     },
 //  - всі червоні карти
-    findAllRed: () => {
-        let result = [];
-        for (const card of cardDeck.cards) {
-            if (card.color == 'red') {
-                result.push(card);
-            }
-        }
-        return result;
-    },
-//  - всі буби
-    findAllDiamonds: () => {
-        let result = [];
-        for (const card of cardDeck.cards) {
-            if (card.cardSuit == 'diamond') {
-                result.push(card);
-            }
-        }
-        return result;
-    },
+//     findAllRed: () => {
+//         let result = [];
+//         for (const card of cardDeck.cards) {
+//             if (card.color == 'red') {
+//                 result.push(card);
+//             }
+//         }
+//         return result;
+//     },
+// //  - всі буби
+//     findAllDiamonds: () => {
+//         let result = [];
+//         for (const card of cardDeck.cards) {
+//             if (card.cardSuit == 'diamond') {
+//                 result.push(card);
+//             }
+//         }
+//         return result;
+//     },
 //  - всі трефи від 9 та більше
-    findAllClubs: () => {
-        let result = [];
-        for (const card of cardDeck.cards) {
-            if (card.cardSuit == 'clubs' && card.value !== '6' && card.value !== '7' && card.value !== '8') {
-                result.push(card);
-            }
-        }
-        return result;
-    },
+//     findAllClubs: () => {
+//         let result = [];
+//         for (const card of cardDeck.cards) {
+//             if (card.cardSuit == 'clubs' && card.value !== '6' && card.value !== '7' && card.value !== '8') {
+//                 result.push(card);
+//             }
+//         }
+//         return result;
+//     },
 // Взяти описану колоду карт, та за допомоги reduce упакувати всі карти по "мастях" в об'єкт
 // {
 //     spades:[],
@@ -204,11 +222,11 @@ let cardDeck = {
         }, [[],[],[],[]]);
     }
 }
-console.log(cardDeck.findAceOfSpades());
-console.log(cardDeck.findAllSixes());
-console.log(cardDeck.findAllRed());
-console.log(cardDeck.findAllDiamonds());
-console.log(cardDeck.findAllClubs());
+// console.log(cardDeck.findAceOfSpades());
+// console.log(cardDeck.findAllSixes());
+// console.log(cardDeck.findAllRed());
+// console.log(cardDeck.findAllDiamonds());
+// console.log(cardDeck.findAllClubs());
 console.log(cardDeck.search());
 // =========================
 // взяти з arrays.js (який лежить в папці 2023 plan) масив coursesArray
@@ -297,3 +315,62 @@ let scan = coursesArray.reduce(function (accumulator, item) {
     return accumulator;
 }, [[],[]]);
 console.log(scan);
+
+
+
+let decksOfCards = [
+    {cardSuit: 'spade', value: '6', color: 'black'},
+    {cardSuit: 'spade', value: '7', color: 'black'},
+    {cardSuit: 'spade', value: '8', color: 'black'},
+    {cardSuit: 'spade', value: '9', color: 'black'},
+    {cardSuit: 'spade', value: '10', color: 'black'},
+    {cardSuit: 'spade', value: 'jack', color: 'black'},
+    {cardSuit: 'spade', value: 'queen', color: 'black'},
+    {cardSuit: 'spade', value: 'king', color: 'black'},
+    {cardSuit: 'spade', value: 'ace', color: 'black'},
+    {cardSuit: 'diamond', value: '6', color: 'red'},
+    {cardSuit: 'diamond', value: '7', color: 'red'},
+    {cardSuit: 'diamond', value: '8', color: 'red'},
+    {cardSuit: 'diamond', value: '9', color: 'red'},
+    {cardSuit: 'diamond', value: '10', color: 'red'},
+    {cardSuit: 'diamond', value: 'jack', color: 'red'},
+    {cardSuit: 'diamond', value: 'queen', color: 'red'},
+    {cardSuit: 'diamond', value: 'king', color: 'red'},
+    {cardSuit: 'diamond', value: 'ace', color: 'red'},
+    {cardSuit: 'heart', value: '6', color: 'red'},
+    {cardSuit: 'heart', value: '7', color: 'red'},
+    {cardSuit: 'heart', value: '8', color: 'red'},
+    {cardSuit: 'heart', value: '9', color: 'red'},
+    {cardSuit: 'heart', value: '10', color: 'red'},
+    {cardSuit: 'heart', value: 'jack', color: 'red'},
+    {cardSuit: 'heart', value: 'queen', color: 'red'},
+    {cardSuit: 'heart', value: 'king', color: 'red'},
+    {cardSuit: 'heart', value: 'ace', color: 'red'},
+    {cardSuit: 'clubs', value: '6', color: 'black'},
+    {cardSuit: 'clubs', value: '7', color: 'black'},
+    {cardSuit: 'clubs', value: '8', color: 'black'},
+    {cardSuit: 'clubs', value: '9', color: 'black'},
+    {cardSuit: 'clubs', value: '10', color: 'black'},
+    {cardSuit: 'clubs', value: 'jack', color: 'black'},
+    {cardSuit: 'clubs', value: 'queen', color: 'black'},
+    {cardSuit: 'clubs', value: 'king', color: 'black'},
+    {cardSuit: 'clubs', value: 'ace', color: 'black'},
+];
+// - знайти піковий туз
+let filterSpade = decksOfCards.filter(value => value.cardSuit === 'spade');
+let filterSpadeAce = filterSpade.filter(value => value.value === 'ace');
+console.log(filterSpadeAce);
+// - всі шістки
+let filterAllSixes = decksOfCards.filter(value => value.value === '6');
+console.log(filterAllSixes);
+// - всі червоні карти
+let filterAllRed = decksOfCards.filter(value => value.color === 'red');
+console.log(filterAllRed);
+// - всі буби
+let diamonds = decksOfCards.filter(value => value.cardSuit === 'diamond');
+console.log(diamonds);
+// - всі трефи від 9 та більше
+let clubs = decksOfCards.filter(value => value.cardSuit === 'clubs');
+let filterClubs = clubs.filter(value => value.value >= '9');
+console.log(filterClubs);
+
