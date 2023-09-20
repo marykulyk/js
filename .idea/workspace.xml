@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="add some content to main.js">
-      <change afterPath="$PROJECT_DIR$/lesson9-hw/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-hw/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-hw/Age.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-hw/idText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-hw/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-hw/index100obj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-hw/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Masha/IdeaProjects/js&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Masha/IdeaProjects/js/lesson10-hw&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -51,6 +54,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Masha\IdeaProjects\js\lesson10-hw" />
       <recent name="C:\Users\Masha\IdeaProjects\js" />
     </key>
   </component>
@@ -80,7 +84,10 @@
       <workItem from="1694348069748" duration="795000" />
       <workItem from="1694350292327" duration="567000" />
       <workItem from="1694360922054" duration="1787000" />
-      <workItem from="1694620098593" duration="9678000" />
+      <workItem from="1694620098593" duration="9749000" />
+      <workItem from="1694975449422" duration="6314000" />
+      <workItem from="1695044193648" duration="4418000" />
+      <workItem from="1695228142655" duration="7500000" />
     </task>
     <task id="LOCAL-00001" summary="innit commit">
       <option name="closed" value="true" />
@@ -242,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694362511188</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="add some content to main.js">
+      <option name="closed" value="true" />
+      <created>1694630132852</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1694630132852</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
