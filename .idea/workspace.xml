@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="add some content to main.js">
-      <change afterPath="$PROJECT_DIR$/lesson10-hw/Age.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-hw/idText.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-hw/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-hw/index100obj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-hw/main.js" afterDir="false" />
+    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="add some content to hw10">
+      <change afterPath="$PROJECT_DIR$/lesson12-hw/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-hw/user-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-hw/users.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,25 +35,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Masha/IdeaProjects/js/lesson10-hw&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Masha/IdeaProjects/js",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Masha\IdeaProjects\js\lesson10-hw" />
       <recent name="C:\Users\Masha\IdeaProjects\js" />
+      <recent name="C:\Users\Masha\IdeaProjects\js\lesson10-hw" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +85,8 @@
       <workItem from="1694620098593" duration="9749000" />
       <workItem from="1694975449422" duration="6314000" />
       <workItem from="1695044193648" duration="4418000" />
-      <workItem from="1695228142655" duration="7500000" />
+      <workItem from="1695228142655" duration="7805000" />
+      <workItem from="1695478474543" duration="7405000" />
     </task>
     <task id="LOCAL-00001" summary="innit commit">
       <option name="closed" value="true" />
@@ -257,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694630132852</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add some content to hw10">
+      <option name="closed" value="true" />
+      <created>1695236010447</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1695236010447</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +290,7 @@
     <MESSAGE value="innit commit to lesson5-hw and add some content to main.js" />
     <MESSAGE value="innit commit to lesson6-hw" />
     <MESSAGE value="add some content to main.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some content to main.js" />
+    <MESSAGE value="add some content to hw10" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some content to hw10" />
   </component>
 </project>
