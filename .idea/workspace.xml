@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="add some content to hw10">
-      <change afterPath="$PROJECT_DIR$/lesson12-hw/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12-hw/user-details.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson12-hw/users.html" afterDir="false" />
+    <list default="true" id="184b4600-a833-45c4-b04f-28b720e3a7f7" name="Changes" comment="add some content to hw12">
+      <change afterPath="$PROJECT_DIR$/project/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/post-details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/user-details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +19,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="43f52506-051b-41a6-af87-cfd0ed150559" />
+        <option name="url" value="https://github.com/marykulyk/js.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectId" id="2U4Y3X9fCSssZj3RJZaxiKedvGI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,23 +49,24 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Masha/IdeaProjects/js",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Masha/IdeaProjects/js/project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Masha\IdeaProjects\js\project" />
       <recent name="C:\Users\Masha\IdeaProjects\js" />
       <recent name="C:\Users\Masha\IdeaProjects\js\lesson10-hw" />
     </key>
@@ -86,7 +101,14 @@
       <workItem from="1694975449422" duration="6314000" />
       <workItem from="1695044193648" duration="4418000" />
       <workItem from="1695228142655" duration="7805000" />
-      <workItem from="1695478474543" duration="7405000" />
+      <workItem from="1695478474543" duration="7428000" />
+      <workItem from="1695919741075" duration="3466000" />
+      <workItem from="1695923447863" duration="289000" />
+      <workItem from="1696006038482" duration="8758000" />
+      <workItem from="1696048936841" duration="8005000" />
+      <workItem from="1696101838708" duration="8582000" />
+      <workItem from="1696110567303" duration="4135000" />
+      <workItem from="1696150706773" duration="4040000" />
     </task>
     <task id="LOCAL-00001" summary="innit commit">
       <option name="closed" value="true" />
@@ -264,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695236010447</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add some content to hw12">
+      <option name="closed" value="true" />
+      <created>1695485966322</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1695485966322</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +321,7 @@
     <MESSAGE value="innit commit to lesson6-hw" />
     <MESSAGE value="add some content to main.js" />
     <MESSAGE value="add some content to hw10" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some content to hw10" />
+    <MESSAGE value="add some content to hw12" />
+    <option name="LAST_COMMIT_MESSAGE" value="add some content to hw12" />
   </component>
 </project>
